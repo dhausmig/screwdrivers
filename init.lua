@@ -7,7 +7,7 @@ screwdrivers = {}
 if (minetest.registered_items["technic:stainless_steel_ingot"] ~= nil) then
    minetest.register_tool("screwdrivers:screwdriver_stainless", {
 	   description = "Stainless Steel Screwdriver (left-click rotates face, right-click rotates axis)",
-   	inventory_image = "screwdriver.png",
+   	inventory_image = "screwdrivers_stainless.png",
 	   on_use = function(itemstack, user, pointed_thing)
 		   screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_FACE, 400)
    		return itemstack
@@ -30,7 +30,7 @@ end
 -- Mese Screwdriver
 minetest.register_tool("screwdrivers:screwdriver_mese", {
 	description = "Mese Screwdriver (left-click rotates face, right-click rotates axis)",
-	inventory_image = "screwdriver.png",
+	inventory_image = "screwdrivers_mese.png",
 	on_use = function(itemstack, user, pointed_thing)
 		screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_FACE, 800)
 		return itemstack
@@ -54,7 +54,7 @@ minetest.register_craft({
 if (minetest.registered_items["moreores:mithril_ingot"] ~= nil) then
    minetest.register_tool("screwdrivers:screwdriver_mithril", {
 	   description = "Mithril Screwdriver (left-click rotates face, right-click rotates axis)",
-   	inventory_image = "screwdriver.png",
+   	inventory_image = "screwdrivers_mithril.png",
 	   on_use = function(itemstack, user, pointed_thing)
 		   screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_FACE, 1600)
    		return itemstack
@@ -79,7 +79,7 @@ end
 if (minetest.registered_items["ethereal:crystal_ingot"] ~= nil) then
    minetest.register_tool("screwdrivers:screwdriver_crystal", {
 	   description = "Crystal Screwdriver (left-click rotates face, right-click rotates axis)",
-   	inventory_image = "screwdriver.png",
+   	inventory_image = "screwdrivers_crystal.png",
 	   on_use = function(itemstack, user, pointed_thing)
 		   screwdriver.handler(itemstack, user, pointed_thing, screwdriver.ROTATE_FACE, 3200)
    		return itemstack

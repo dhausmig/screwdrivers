@@ -22,4 +22,4 @@ Crystal Screwdriver
 
 They all do the same thing but each one lasts twice as long as the one before it.
 
-They all look the same. I borrowed the texture from the technic mod.
+The textures are by BenjieFiftysix based on the texture from the technic mod.
